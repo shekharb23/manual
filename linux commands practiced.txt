@@ -1,0 +1,615 @@
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ ls
+s1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ ls -al
+total 0
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:39 ./
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:38 ../
+-rw-r--r-- 1 DELL 197610 0 Aug  1 17:39 s1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ pwd
+/c/Users/DELL/Desktop/code2/a1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ cd ..
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ pwd
+/c/Users/DELL/Desktop/code2
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls -al
+total 16
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:38 ./
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:37 ../
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:39 a1/
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:38 a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cd a1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ cd
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ pwd
+/c/Users/DELL
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Atlassian/
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.0.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.1.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.2.regtrans-ms
+ NTUSER.DAT{53b39e87-18c4-11ea-a811-000d3aa4692b}.TxR.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ eclipse/
+ eclipse-workspace/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ pwd
+/c/Users/DELL
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ cd code1
+bash: cd: code1: No such file or directory
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ cd code2
+bash: cd: code2: No such file or directory
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ pwd
+/c/Users/DELL
+
+DELL@DESKTOP-9L880VV MINGW64 ~
+$ cd Desktop/code2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ pwd
+/c/Users/DELL/Desktop/code2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls-al
+bash: ls-al: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls -al
+total 16
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:38 ./
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:37 ../
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:39 a1/
+drwxr-xr-x 1 DELL 197610 0 Aug  1 17:38 a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ mkdir a3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ rmdir a3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ la
+bash: la: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ tpuch s1
+bash: tpuch: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ touch s1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cat >s2
+hello anji myself shekhar
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cat s2
+hello anji myself shekhar
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ echo "hello"
+hello
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cp s2 a1/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ la
+bash: la: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s1  s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cd a1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ ls
+s1  s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a1
+$ cd ..
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s1  s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ mv s1 a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cd a2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a2
+$ ls
+s1
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2/a2
+$ cd ..
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ rm s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ nano
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cat s2
+hello rjay team.how r u doing?
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ vim
+h
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2  s3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ cat s3
+hello world.....
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ shred s3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2  s3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ shred s2
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2  s3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ less s2
+"s2" may be a binary file.  See it anyway?q
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+
+
+
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ ls
+a1/  a2/  s2  s3
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ date
+Thu Aug  1 21:13:48 IST 2024
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ whoami
+DELL
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ history
+    1  ssh -i "shekhar.pem" ubuntu@ec2-15-206-179-202.ap-south-1.compute.amazonaws.com
+    2  exit
+    3  i-010ffedad3b394f3f
+    4  i-010ffedad3b394f3f
+    5  ssh -i "shekhar.pem" ubuntu@ec2-3-109-206-135.ap-south-1.compute.amazonaws.com
+    6  ssh -i "shekhar.pem" ubuntu@ec2-3-109-206-135.ap-south-1.compute.amazonaws.com
+    7  ssh -i "shekhar.pem" ubuntu@ec2-65-0-124-254.ap-south-1.compute.amazonaws.com
+    8  ssh -i "shekhar.pem" ubuntu@ec2-65-0-124-254.ap-south-1.compute.amazonaws.com
+    9  ssh -i "shekhar.pem" ubuntu@ec2-65-0-124-254.ap-south-1.compute.amazonaws.com
+   10  ls
+   11  mkdir f1
+   12  cat f1
+   13  cd f1
+   14  touch a1
+   15  cat >a1
+   16  cat >>a1
+   17  cat a1
+   18  cat >a2
+   19  ls
+   20  git init
+   21  ls
+   22  git status
+   23  git add .
+   24  git status
+   25  git commit -m "first commit"
+   26  git cofig --global user.email "shekharbarure0852@gmail.com"
+   27   git config --global user.email "shekharbarure0852@gmail.com"
+   28    git config --global user.name "shekhar"
+   29  git status
+   30  git commit -m "first commit"
+   31  git log -- one line
+   32  git log --oneline
+   33  git remote add origin https://github.com/shekharb23/shekhar.git
+   34  git remote -v
+   35  git branch
+   36  git push origin master
+   37  touch a3
+   38  git init
+   39  git add .
+   40  git commit -m "second commit"
+   41  git status
+   42  git log --oneline
+   43  git remote add origin https://github.com/shekharb23/shekhar.git
+   44  git remote -v
+   45  git branch
+   46  ls
+   47  exit
+   48  ls
+   49  touch new
+   50  ls
+   51  pwd
+   52  mkdir d1
+   53  mkdir d2
+   54  rmdir d2
+   55  ls
+   56  cd f1
+   57  pwd
+   58  cp f1
+   59  cp --help
+   60  cp
+   61  cp d1 new
+   62  ls
+   63  pwd
+   64  cd new
+   65  clear
+   66  ls
+   67  pwd
+   68  cd ..gitbash
+   69  clear
+   70  ls
+   71  pwd
+   72  cd d1
+   73  pwd
+   74  mkdir s1
+   75  rmdir new
+   76  cd . .
+   77  cd ..
+   78  pwd
+   79  rmdir new
+   80  rmdir d1
+   81  rmdir -r d1
+   82  clear
+   83  ls
+   84  pwd
+   85  cd f1
+   86  pwd
+   87  cd ..
+   88  pwd
+   89  mkdir d2
+   90  ls
+   91  rmdir d2
+   92  ls
+   93  touch new1
+   94  ls
+   95  cd d1
+   96  cd ..
+   97  cp f1 /Desktop/gitbash/d1
+   98  cp f1 /Desktop/gitbash/d1/
+   99  clear
+  100  ls
+  101  pwd
+  102  cd f1
+  103  cd ..
+  104  pwd
+  105  ps
+  106  top
+  107  top
+  108  top f1
+  109  ls
+  110  cp new
+  111  cd d1
+  112  cd..
+  113  pwd
+  114  cd ..
+  115  ls
+  116  cp new /Desktop/gitbash/d1/
+  117  cp new /Desktop/gitbash/d1
+  118  nneeww
+  119  top
+  120  ls
+  121  ls
+  122  cp new1 d1/
+  123  ls
+  124  cd d1
+  125  ls
+  126  ps
+  127  top
+  128  ls
+  129  ls
+  130  touch linux commands
+  131  ls
+  132  rm linux
+  133  ls
+  134  git init
+  135  git status
+  136  git add .
+  137  git ststus
+  138  git status
+  139  git commit -m "latest1commit"
+  140  git status
+  141  git log
+  142  ls
+  143  git status
+  144  git remote add origin ~/Desktop/gitbash
+  145  git add readme.md
+  146  git add commands
+  147  ls
+  148  git status
+  149  git branch test
+  150  git log --oneline
+  151  git checkout test
+  152  touch s2
+  153  git add .
+  154  git commit -m "secondcommit"
+  155  touch s3
+  156  git add .
+  157  git commit -m "thirdcommit"
+  158  git log --oneline
+  159  git push origin test
+  160  git status
+  161  ls
+  162  ls
+  163  mkdir d2
+  164  cd d2
+  165  touch commands1
+  166  git init
+  167  git add .
+  168  git status
+  169  git commit -m "first commit"
+  170  git status
+  171  git remote add origin https://github.com/shekharb23/s1-.git
+  172  git push origin commands1
+  173  clear
+  174  mkdir A1
+  175  git init
+  176  git status
+  177  mkdir A2
+  178  ls
+  179  cd A1
+  180  touch f1
+  181  git status
+  182  touch f2
+  183  git add .
+  184  git commit -m "first commit"
+  185  git log --oneline
+  186  git status
+  187  cd A2
+  188  pwd
+  189  cd ..
+  190  pwd
+  191  ls
+  192  cd A2
+  193  touch s1
+  194  touch s2
+  195  git add .
+  196  git commit -m "second commit"
+  197  git init
+  198  git remote add origin git@github.com:shekharb23/s1-.git
+  199  git remote add origin
+  200  git push origin A1
+  201  git push origin https://github.com/shekharb23/s1-.git
+  202  cd A1
+  203  pwd
+  204  git add origin https://github.com/shekharb23/s1-.git
+  205  git push -u s1 master
+  206  git push -u s1 main
+  207  ls
+  208  cd A1
+  209  cd ..
+  210  ls
+  211  cd A1
+  212  ls
+  213  clear
+  214  get remote add origin https://github.com/shekharb23/code1.git
+  215   get remote add origin https://github.com/shekharb23/code1.git
+  216  ls
+  217  cd ..
+  218  pwd
+  219  ls
+  220  git init
+  221  git add .
+  222  git commit -m "first commit"
+  223  git remote add origin https://github.com/shekharb23/code1.git
+  224  git push --set upstream origin master
+  225  $ git push --setupstream origin master
+  226  $ git remote add origin $ git remote add origin https://github.com/shekharb23/code1.git
+  227  git remote add origin git@github.com:shekharb23/code1.git
+  228  git push A1
+  229  mkdir a1
+  230  mkdir a2
+  231  ls
+  232  cd a1
+  233  touch s1
+  234  ls
+  235  clear
+  236  ls
+  237  ls -al
+  238  pwd
+  239  cd ..
+  240  pwd
+  241  ls
+  242  ls -al
+  243  cd a1
+  244  cd
+  245  pwd
+  246  ls
+  247  pwd
+  248  cd code1
+  249  cd code2
+  250  pwd
+  251  cd Desktop/code2/
+  252  pwd
+  253  ls
+  254  ls-al
+  255  ls -al
+  256  mkdir a3
+  257  rmdir a3
+  258  la
+  259  ls
+  260  tpuch s1
+  261  touch s1
+  262  ls
+  263  cat >s2
+  264  cat s2
+  265  echo "hello"
+  266  cp s2 a1/
+  267  la
+  268  ls
+  269  cd a1
+  270  ls
+  271  cd ..
+  272  ls
+  273  mv s1 a2/
+  274  ls
+  275  cd a2
+  276  ls
+  277  cd ..
+  278  rm s2
+  279  ls
+  280  nano
+  281  ls
+  282  cat s2
+  283  vim
+  284  ls
+  285  cat s3
+  286  shred s3
+  287  ls
+  288  shred s2
+  289  ls
+  290  less s2
+  291  grep s1
+  292  mkdir a1
+  293  rmdir a1
+  294  ls
+  295  clear
+  296  touch a1
+  297  git in it
+  298  git init
+  299  fit add .
+  300  git add .
+  301  git commit -m "commit1"
+  302  touch a2
+  303  git add .
+  304  git commit -m "commit 2"
+  305  git status
+  306  git remote add origin git@github.com:shekharb23/code1.git
+  307  git push -u origin master
+  308  clear
+  309  ls
+  310  date
+  311  whoami
+  312  history
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ df
+Filesystem           1K-blocks     Used Available Use% Mounted on
+C:/Program Files/Git 481016164 88500892 392515272  19% /
+D:                   141458428 68147936  73310492  49% /d
+E:                   337918972 50165056 287753916  15% /e
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ du
+1       ./a1
+0       ./a2
+133     .
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ uname
+MINGW64_NT-10.0-19045
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ man ls
+bash: man: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$ man ls
+bash: man: command not found
+
+DELL@DESKTOP-9L880VV MINGW64 ~/Desktop/code2
+$
+
+
+
+
+
+
